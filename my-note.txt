@@ -30,3 +30,7 @@ build if it doesn't have permission to do so.
 Running jenkin with daemon may have limited permission because it doesn't run from the user workspace. 
 
 ------------------------------------------------------------------
+
+Try to trigger from outside 
+
+>> localhost:8080/job/HelloWorld/build?token=qwertyuiop1234567890
