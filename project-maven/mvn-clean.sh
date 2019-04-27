@@ -2,4 +2,4 @@
 
 cd my-app
 
-mvn clean dependency:copy-dependencies package
+mvn clean
