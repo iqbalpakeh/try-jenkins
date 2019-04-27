@@ -23,3 +23,10 @@ To start the daemon again:
 $ sudo launchctl load /Library/LaunchDaemons/org.jenkins-ci.plist
 
 ------------------------------------------------------------------
+
+Please note from where you execute Jenkins. This have effect on the access file for the build script. Jenkins will failed 
+build if it doesn't have permission to do so. 
+
+Running jenkin with daemon may have limited permission because it doesn't run from the user workspace. 
+
+------------------------------------------------------------------
