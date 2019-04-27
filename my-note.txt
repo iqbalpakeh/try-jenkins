@@ -1,0 +1,25 @@
+------------------------------------------------------------------
+
+to start jenkin with jenkin.war
+
+$ java -jar jenkins.war
+
+and server listen at localhost:8080
+
+------------------------------------------------------------------
+
+To start with different port (ex. port 8181)
+
+$ java -jar jenkins.war --httpPort=8181
+
+------------------------------------------------------------------
+
+If you install with package installer, it will set up on with daemon. So it keep running on default port 8080. 
+
+To stop daemon from running: 
+$ sudo launchctl unload /Library/LaunchDaemons/org.jenkins-ci.plist
+
+To start the daemon again:
+$ sudo launchctl load /Library/LaunchDaemons/org.jenkins-ci.plist
+
+------------------------------------------------------------------
