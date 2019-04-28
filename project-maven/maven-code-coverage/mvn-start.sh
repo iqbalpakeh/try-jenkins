@@ -1,7 +1,3 @@
 #!/bin/sh
 
-mvn clean
-
-mvn test
-
-mvn sonar:sonar
+mvn clean test sonar:sonar
